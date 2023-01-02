@@ -1,5 +1,7 @@
 # ATM-Machine
 
+![Alt text](assets/images/UML.png "UML Diagram")
+
 ## Abstract
 The ATM System is the project which is used to access their bank accounts in order to make cash
 withdrawals. Whenever the user need to make cash withdraws, they can enter their PIN number
