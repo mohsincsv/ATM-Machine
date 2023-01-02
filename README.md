@@ -30,43 +30,35 @@ In order to develop an Automatic Teller Machine, you need to implement the follo
 7. Checking Account
 8. Card
 
-The class <b>Card</b> should have the following private attributes:
-
+### Card:
   • CardNumber (int)
   • PIN (int)
 
 Create a function that will automatically generate a card number for the user using rand function.
-The class <b>BankAccount</b> should have the following private attributes:
 
+### BankAccount:
   • BankName (char*)
 
   • Branch (char*)
 
   • TotalCash (float)
 
-The class <b>SavingAccount</b> which is derived from the class BankAccount should have the following
-private attributes:
-
+### SavingAccount:
   • interestRate(float)
 
 It also have a function to calculate the interest.
 
-The class <b>CheckingAccount</b> which is derived from the class BankAccount should have the following
-private attributes:
-
+### CheckingAccount:
   • fee per transaction(float)
 
-The class <b>User</b> that has a BankAccount (saving or cheking), Card and some of the basic information of a
-person involving
-
+### User:
   • Name (char*)
 
   • PhoneNumber (int*)
 
   • Address (char*)
 
-The class <b>ATM</b> has a user and can perform the following tasks:
-
+### ATM:
   • Take input (Card_number and PIN) from user.
 
   • Validate the Card number and pin entered by user.
